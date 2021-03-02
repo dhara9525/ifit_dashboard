@@ -1,0 +1,55 @@
+.dashboard-container{
+  border: 1px solid #888888;
+  border-radius: 7px;
+  cursor: pointer;
+  font-family: Tahoma;
+  display: inline-block;
+  margin: 10px;
+  align-items: baseline;
+}
+.dashboard-container:hover{
+  box-shadow: 0 5px 10px;
+}
+
+.thumb-image-container img{
+ border-radius: 7px 7px 0px 0px;
+
+}
+
+p{
+  font-family: 'Open Sans', sans-serif;;
+}
+
+
+
+.description-container{
+  display: flex;
+  flex-direction: row;
+  font-family: 'Open Sans', sans-serif;
+  align-items: baseline;
+  align-content: space-around;
+  padding: 4px;
+}
+
+
+.title-and-image-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+  font-weight: bold;
+
+}
+.small-image-container{
+  border-radius: 5px;
+  filter: 4px;
+
+}
+
+.view-details-container{
+  padding: 3px;
+  decoration:none;
+  text-decoration:none;
+  text-decoration: none;
+  color: blue;
+}
